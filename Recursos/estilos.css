@@ -9,7 +9,7 @@
 @font-face{
 
     font-family: fuentePrrona;
-    src: url(Fuente/Bunnyheart.ttf);
+    src: url(Fuente/Shallow\ Grave\ Personal\ Use\ Without\ Watermark.ttf);
 
 }
 
@@ -47,7 +47,7 @@ body{
 .texto1{
 
         text-align: center;
-        font-size: 5em;
+        font-size: 3em;
         color: darkgray;
         font-family: fuentePrrona;
 }
