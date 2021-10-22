@@ -1,0 +1,100 @@
+@font-face {
+
+    font-family: fuenteCesar;/*Nombre con el cual llamare a mi fuente*/
+    
+    src: url(Fuente/BLURRYFACE.ttf);/*Ruta donde esta la fuente*/
+    
+    }
+
+@font-face{
+
+    font-family: fuentePrrona;
+    src: url(fuente/Shallow\ Grave\ Personal\ Use\ Without\ Watermark.ttf);
+
+}
+
+    .fondoimagen{
+        background-image: url(Media/fondo\ minimalista\ blanco\ cafe\ gris\ negro.png);
+        width: 100%;
+        background-repeat:no-repeat;
+        text-align: center;
+        background-size: 10rem;/*Tamaño especifico de las imagenes de fondo*/
+        padding: 25px;
+    }
+
+body{
+    background-color: #a04129 ;   
+    font-family: sans-serif;
+    padding: 5px;
+    
+}
+
+
+.fondoblanco{
+    background-color: white;
+}
+
+.fondoazul{
+    background-color: rgb(8, 134, 134);
+    
+}
+
+.fondonegro{
+    background-color: black;
+
+}
+
+.texto1{
+
+        text-align: center;
+        font-size: 5em;
+        color: darkgray;
+        font-family: fuentePrrona;
+}
+.texto2{
+
+    padding: 5px;
+    font-size: 2em;
+    color: white;
+    text-align: left;
+    font-family: fuenteCesar;
+   
+
+}
+
+.texto3{
+
+    font-size: 1em;
+    text-align: center;
+    color: white;
+    padding-bottom: 15px;
+
+}
+
+.texto4{
+
+    font-size: 1em;
+    color: white;
+    text-align: left;
+    font-family: fuenteCesar;
+    padding-left:15px ;
+}
+
+.imagenEstilo{
+
+    width: 150px;
+    text-align: center;
+}
+
+
+
+.bordeblanco{
+    border: 20px solid white;
+    border-radius: 15px;
+
+}
+
+.separa{
+
+    padding: 1em;
+}
