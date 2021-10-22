@@ -47,7 +47,7 @@ body{
 .texto1{
 
         text-align: center;
-        font-size: 3em;
+        font-size: 4em;
         color: darkgray;
         font-family: fuentePrrona;
 }
@@ -75,7 +75,7 @@ body{
 
     font-size: 1em;
     color: white;
-    text-align: left;
+    text-align: center;
     font-family: fuenteCesar;
     padding-left:15px ;
 }
