@@ -1,0 +1,31 @@
+/* Fondo Principal */
+
+.fondoAmazul{
+    background-color: #1abc9c;
+}
+
+/* Fondos Del Ejercicio */
+
+.fondoA{
+    background-color: #e74c3c;
+}
+
+.fondoB{
+    background-color: #2ecc71;
+}
+
+.fondoC{
+    background-color: #9b58b6;
+}
+
+/* Bordes */
+
+.bordeBlanc{
+    border: white 5px;
+}
+
+/* Tmaño recuadro */
+
+.tamañorecuadro1{
+    width: 100%;
+}

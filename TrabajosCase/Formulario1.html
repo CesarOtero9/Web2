@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fromulario 1</title>
+</head>
+
+<body>
+    <!-- Get: Los valores que enviamos se añaden a la dirección, se ven los valores en la parte de arriba, indicando dentro de nuestro atributo
+Post_ Los valores los enviamos de manera seoarada-->
+
+    <script>
+    function valida(e) {
+        tecla = (document.all) ? e.keyCode : e.which;
+        //Tecla de retroceso para borrar, siempre la permite
+        if (tecla == 8) {
+            return true;
+        }
+
+        //patron de entrada, en este caso solo acepta numero
+        patron = /[0-9]/;
+        tecla_final = String.fromCharCode(tecla);
+        return patron.test(tecla_final);
+    }
+    </script>
+
+    <div>
+        <h1>Mi primer formulario</h1>
+    </div>
+    <form action="control.php" method="get">
+        <p>Nombre: <input type="text" name="nombre" size="40" required autofocus> </p>
+        <p>Año de nacimiento <input type="number" name="Nacimiento" min="1990"></p>
+        <p>Email <input type="email" name="correo" placeholder="Solo Correo @aragon.unam.mx" size="50"></p>
+        <p>Número de tarjeta de credito <input type="number" onkeypress="return valida(event)" name="tarjeta" maxlength="16" placeholder="Ingresa 16 digitos de tu tarjeta"></p>
+        <p>Contraseña <input type="password"  name="Contraseña" placeholder="Ingresa tu contraseña"></p>
+        <hr>
+        <p>Genero:
+            <input type="radio" name="genero" value="H"> Hombre
+            <input type="radio" name="genero" value="M"> Mujer
+            <input type="radio" name="genero" value="O"> Otro
+        </p>
+
+        <input type="submit" value="Enviar">
+        <input type="reset" value="Borrar">
+
+        <button type="submit">
+            <img src="C:\Users\cesar\Documents\Repositorios\Web2\Recursos\Media\ora que.png" alt="planta" width="30">
+
+        </button>
+
+    </form>
+
+</body>
+
+</html>
