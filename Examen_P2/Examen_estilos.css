@@ -1,0 +1,68 @@
+/* Fondos */
+
+.fondoPrincipal{
+    background-color: #1abc9c;
+}
+
+.fondoCian{
+    background-color: #01ffff;
+}
+
+.fondoviolet{
+    background-color: #9B59B6;
+}
+
+/* Borde */
+
+.bordeBlancoPunteado{
+    border: white 
+    4px dashed;
+}
+
+.bordeRojoPunteado{
+    border: rgb(158, 8, 8)
+    4px dashed;
+}
+
+.bordeBlancoSolido{
+    border: white
+    3px solid;
+}
+
+/* Color Letra */ 
+
+.letraBlancaText{
+    color: white;
+    font-size: 30px;
+    padding: 0px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 4px;
+    margin-right: 4px;    
+}
+
+.letraNegraText{
+    color: black;
+    padding-top: 3px;
+    padding-right: 3px;
+    padding-left: 3px;
+}
+
+.letraNegraText2{
+    color: black;
+    margin-right: 3px;
+    margin-left: 3px;
+    margin-bottom: 3px;   
+}
+
+.letraNegraText3{
+    font-size: 25px;
+    color: black;
+    padding: 1px;
+    font-family: 'Times New Roman';
+}
+
+
+
+
+
