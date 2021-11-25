@@ -38,7 +38,8 @@
     padding-left: 50px;
     padding-right: 50px;
     margin-left: 4px;
-    margin-right: 4px;    
+    margin-right: 4px;  
+    font-family: 'Times New Roman';  
 }
 
 .letraNegraText{
@@ -46,13 +47,15 @@
     padding-top: 3px;
     padding-right: 3px;
     padding-left: 3px;
+    font-family: 'Times New Roman';
 }
 
 .letraNegraText2{
     color: black;
     margin-right: 3px;
     margin-left: 3px;
-    margin-bottom: 3px;   
+    margin-bottom: 3px;
+    font-family: 'Times New Roman';   
 }
 
 .letraNegraText3{
