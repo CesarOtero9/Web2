@@ -6,26 +6,63 @@
 
 /* Fondos Del Ejercicio */
 
-.fondoA{
+.fondoRojo{
     background-color: #e74c3c;
 }
 
-.fondoB{
+.fondoVerdeAgua{
     background-color: #2ecc71;
 }
 
-.fondoC{
+.fondoMorado{
     background-color: #9b58b6;
 }
 
 /* Bordes */
 
-.bordeBlanc{
-    border: white 5px;
+.bordeBlancoDifuminado{
+    border: #FFFFFF 5px ridge;
+}
+
+.bordeBlancoSolido{
+    border: #FFFFFF 3px solid;
 }
 
 /* Tmaño recuadro */
 
-.tamañorecuadro1{
+.tamañoCelda1{
+    width: 70%;
+}
+
+.tamañoTabla1{
     width: 100%;
+    height: 55px;
+}
+
+.tamañoTabla2{
+    width: 100%;
+    height: 10cm;
+}
+
+.tamañoCelda2{
+    width: 60%;
+}
+
+.tamañoCelda3{
+    width: 100%;
+    height: 48px;
+}
+
+
+/* Color de Letras */
+
+.LetraBlanca{
+    color: white;
+    font-size: 40px;
+    
+}
+
+.LetraNegra{
+    color: black;
+    font-size: 30px;
 }
